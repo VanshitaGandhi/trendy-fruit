@@ -10,13 +10,26 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+
+  font-family: "Open Sans", sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-.img-flex {
-  display: block;
-  width: 100%;
+body {
+  margin: 0;
+}
+
+.one {
+  background-color: #e97065;
+}
+
+.two {
+  background-color: #fbd25e;
+}
+
+.three {
+  background-color: #e86033;
 }
